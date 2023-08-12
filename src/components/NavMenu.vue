@@ -56,12 +56,6 @@ export default {
 </template>
 
 <style lang="scss">
-.navbar {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-
 .navbar-brand {
   font-family: Pretendard-Regular;
   font-size: 1.5rem;

@@ -1,18 +1,63 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
     <title>엔써타운</title>
-  </head>
-  <body>
-    <noscript>
-      자바스크립트를 활성화해주세요.
-    </noscript>
-    <div id="app"></div>
-  </body>
+    <script>
+        (function () {
+            var w = window;
+            if (w.ChannelIO) {
+                return w.console.error("ChannelIO script included twice.");
+            }
+            var ch = function () {
+                ch.c(arguments);
+            };
+            ch.q = [];
+            ch.c = function (args) {
+                ch.q.push(args);
+            };
+            w.ChannelIO = ch;
+
+            function l() {
+                if (w.ChannelIOInitialized) {
+                    return;
+                }
+                w.ChannelIOInitialized = true;
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
+                var x = document.getElementsByTagName("script")[0];
+                if (x.parentNode) {
+                    x.parentNode.insertBefore(s, x);
+                }
+            }
+
+            if (document.readyState === "complete") {
+                l();
+            } else {
+                w.addEventListener("DOMContentLoaded", l);
+                w.addEventListener("load", l);
+            }
+        })();
+
+        ChannelIO('boot', {
+            "pluginKey": "a3b74723-7f8a-4b6b-ad88-f3603e3d700b"
+        });
+    </script>
+</head>
+<body>
+<noscript>
+    자바스크립트를 활성화해주세요.
+</noscript>
+<div id="app"></div>
+</body>
 </html>
