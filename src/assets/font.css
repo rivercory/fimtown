@@ -52,6 +52,13 @@
 /* 나눔스퀘어 https://noonnu.cc/font_page/37 */
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 
+/* 나눔고딕 https://noonnu.cc/font_page/39 */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 /* 나눔스퀘어 네오 https://noonnu.cc/font_page/1053 */
 @font-face {
   font-family: 'NanumSquareNeo-Variable';

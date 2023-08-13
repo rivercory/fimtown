@@ -2,11 +2,11 @@
   <div class="d-flex flex-nowrap">
     <div class="if-desktop">
       <div style="flex: 1;">
-        <SideMenu />
+        <SideMenu/>
       </div>
     </div>
     <div style="flex: 7;">
-      <NavMenu title="엔써타운" />
+      <NavMenu title="홈"/>
     </div>
   </div>
 </template>
@@ -21,4 +21,3 @@ export default {
   }
 }
 </script>
-
