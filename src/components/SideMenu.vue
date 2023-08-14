@@ -8,8 +8,8 @@
 
 <style scoped>
 main {
-  max-height: 100vh;
-  height: 100vh;
+  max-height: 87vh;
+  height: 87vh;
 }
 
 .nav-link {
