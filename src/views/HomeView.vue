@@ -4,7 +4,7 @@
     <div class="if-desktop">
       <SideMenu />
     </div>
-    <div class="rounded-3 content">
+    <div class="content">
       f
     </div>
   </div>
@@ -29,14 +29,5 @@ export default {
   margin-bottom: 1rem;
   padding: 1rem;
   width: 83rem;
-  background-color: var(--content-background-color);
-}
-
-[data-theme="light"] {
-  --content-background-color: #e9ecef;
-}
-
-[data-theme="dark"] {
-  --content-background-color: #495057;
 }
 </style>
