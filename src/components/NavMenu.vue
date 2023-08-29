@@ -75,4 +75,8 @@ export default {
 .navbar-toggler {
   border: 0;
 }
+
+.offcanvas-title {
+  font-family: NanumSquareNeo-Variable;
+}
 </style>

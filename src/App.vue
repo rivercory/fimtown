@@ -48,7 +48,6 @@ html, body {
 }
 
 .theme-toggle {
-  float: left;
   padding: 1rem;
   margin: 1rem;
 }

@@ -17,7 +17,7 @@ main {
 }
 
 [data-theme="light"] {
-  --sidebar-background-color: #e9ecef;
+  --sidebar-background-color: #dee2e6;
 }
 
 [data-theme="dark"] {
