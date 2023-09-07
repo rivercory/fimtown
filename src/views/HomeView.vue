@@ -6,10 +6,11 @@
     </div>
     <div class="content">
       <textarea class="border rounded-2" style="border: 0; resize: none; width: 100%; height: 20vh;" />
+      <button class="btn" style="background-color: #C2FF02; font-weight: bold; font-family: Pretendard-Regular; float: right; margin-bottom: 2rem;">보내기</button>
       <div class="article">
-        <ul>
-          <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
-        </ul>
+        <div style="clear: both;">
+          <div class="border rounded-2" style="padding: 1rem; margin-bottom: 0.5rem;" v-for="country in countries" :key="country.id">{{ country.name }}</div>
+        </div>
       </div>
     </div>
   </div>
