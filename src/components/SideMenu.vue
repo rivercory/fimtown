@@ -1,7 +1,7 @@
 <template>
   <main class="d-flex flex-nowrap">
     <div class="d-flex flex-column flex-shrink-0 p-3 rounded-3 sidebar"
-         style="width: 16rem; margin-left: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
+         style="width: 21rem; margin-left: 1rem; margin-top: 1rem; margin-bottom: 1rem;">
     </div>
   </main>
 </template>
@@ -16,11 +16,11 @@ main {
   background-color: var(--sidebar-background-color);
 }
 
-[data-theme="light"] {
+:root.lightmode {
   --sidebar-background-color: #dee2e6;
 }
 
-[data-theme="dark"] {
+:root.darkmode {
   --sidebar-background-color: #495057;
 }
 </style>

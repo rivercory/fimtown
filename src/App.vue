@@ -9,11 +9,11 @@ html, body {
   background-color: var(--background-color);
 }
 
-[data-theme="light"] {
-  --background-color: #fff4e6;
+:root.lightmode {
+  --background-color: #ffffff;
 }
 
-[data-theme="dark"] {
+:root.darkmode {
   --background-color: #212529;
 }
 
