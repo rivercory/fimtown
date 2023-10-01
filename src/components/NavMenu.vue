@@ -140,8 +140,8 @@ methods: {
 }
 
 .navbar {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .navbar-brand {
