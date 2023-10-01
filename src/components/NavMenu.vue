@@ -10,29 +10,6 @@ export default {
         } else {
             document.documentElement.classList.add("lightmode");
         }
-
-        const html = document.documentElement;
-
-        if (html.classList.contains("darkmode")) {
-            localStorage.setItem("darkTheme", "false");
-        } else {
-            localStorage.setItem("darkTheme", "true");
-        }
-
-      if (html.classList.contains("lightmode")) {
-        localStorage.setItem("lightTheme", "false");
-      } else {
-        localStorage.setItem("lightTheme", "true");
-      }
-
-        const storedTheme = localStorage.getItem("darkTheme");
-      const storedTheme2 = localStorage.getItem("lightTheme");
-
-        if (storedTheme == "true") {
-            document.documentElement.classList.add("darkmode");
-        } else if (storedTheme2 == "true") {
-        document.documentElement.classList.add("lightmode");
-      }
 },
 methods: {
     onToggleDarkMode()
@@ -66,7 +43,8 @@ methods: {
 </script>
 
 <template>
-  <nav class="navbar rounded-3" aria-label="Light offcanvas navbar">
+  <div class="bg-body-tertiary">
+  <nav class="navbar" aria-label="Light offcanvas navbar">
     <a class="navbar-brand" href="#">
       {{ title }}
     </a>
@@ -82,7 +60,7 @@ methods: {
         xmlns="http://www.w3.org/2000/svg"
         width="40"
         height="40"
-        fill="#FFFFFF"
+        fill="#000000"
         class="bi bi-list"
         viewBox="0 0 16 16"
       >
@@ -105,6 +83,7 @@ methods: {
           class="btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
+          style="background-color: var(--offcanvas-close-button-background-color);"
         ></button>
       </div>
       <div class="offcanvas-body">
@@ -134,31 +113,42 @@ methods: {
       </div>
     </div>
   </nav>
+  </div>
 </template>
 
 <style lang="scss">
 :root.lightmode {
   --theme-toggle-icon-color: #000000;
   --offcanvas-background-color: #ffffff;
+  --offcanvas-foreground-color: #000000;
+  --offcanvas-close-button-background-color: #ffffff;
 }
 
 :root.darkmode {
   --theme-toggle-icon-color: #ffffff;
   --offcanvas-background-color: #212529;
+  --offcanvas-foreground-color: #FFFFFF;
+  --offcanvas-close-button-background-color: #ced4da;
+}
+
+.nav-link {
+  color: var(--offcanvas-foreground-color);
+}
+
+.nav-link:hover {
+  color: var(--offcanvas-foreground-color);
 }
 
 .navbar {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  background-color: #aa3291;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .navbar-brand {
   font-family: Pretendard-Regular;
   font-size: 1.5rem;
   margin-left: 1rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar-toggler {
@@ -171,13 +161,16 @@ methods: {
 
 .offcanvas-title {
   font-family: NanumSquareNeo-Variable;
-}
-
-.theme-toggle {
-  margin: 1rem;
+  color: var(--offcanvas-foreground-color);
 }
 
 .theme-toggle-icon {
   fill: var(--theme-toggle-icon-color);
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    margin: 0;
+  }
 }
 </style>
