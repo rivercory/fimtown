@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-@import "./assets/font.css";
+@import "assets/font.css";
 
 html, body {
   background-color: var(--background-color);
