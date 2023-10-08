@@ -37,14 +37,12 @@ methods: {
 
         }
     }
-,
 }
 }
 </script>
 
 <template>
-  <div style="background-color: var(--navbar-background-color);">
-  <nav class="navbar" aria-label="Light offcanvas navbar">
+  <nav class="navbar rounded-2" aria-label="Light offcanvas navbar">
     <a class="navbar-brand" href="#">
       {{ title }}
     </a>
@@ -105,7 +103,6 @@ methods: {
       </div>
     </div>
   </nav>
-  </div>
 </template>
 
 <style lang="scss">
@@ -134,8 +131,8 @@ methods: {
 }
 
 .navbar {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin: 1rem;
+  background-color: var(--navbar-background-color);
 }
 
 .navbar-brand {
@@ -168,7 +165,7 @@ methods: {
 
 @media screen and (max-width: 1400px) {
   .navbar {
-    margin: 0;
+    margin: 0.5rem;
   }
 }
 </style>
