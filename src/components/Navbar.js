@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     return (
         <div className="navbar bg-base-100">
@@ -6,13 +8,17 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                     </label>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Homepage</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>About</a></li>
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 suit">
+                        <li className="menu-title">게시판</li>
+                        <li><Link to="/board/lily">릴리</Link></li>
+                        <li><Link to="/board/haewon">해원</Link></li>
+                        <li><Link to="/board/sullyoon">설윤</Link></li>
+                        <li><Link to="/board/bae">배이</Link></li>
+                        <li><Link to="/board/jiwoo">지우</Link></li>
+                        <li><Link to="/board/kyujin">규진</Link></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl pretendard">엔써타운</a>
+                <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">엔써타운</Link>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
