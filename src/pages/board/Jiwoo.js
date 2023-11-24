@@ -1,7 +1,9 @@
 const Jiwoo = () => {
     return (
-        <div>
-            <p>지우</p>
+        <div className="w-full">
+            <div className="m-4 p-8 bg-primary/50 rounded-lg">
+                <p className="text-3xl">지우</p>
+            </div>
         </div>
     );
 };

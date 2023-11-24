@@ -1,7 +1,9 @@
 const Lily = () => {
     return (
-        <div>
-            <p>릴리</p>
+        <div className="w-full">
+            <div className="m-4 p-8 bg-primary/50 rounded-lg">
+                <p className="text-3xl">릴리</p>
+            </div>
         </div>
     );
 };
