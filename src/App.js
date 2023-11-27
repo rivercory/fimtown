@@ -14,13 +14,13 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/board/bae" element={<Bae />} />
-        <Route path="/board/haewon" element={<Haewon />} />
-        <Route path="/board/jiwoo" element={<Jiwoo />} />
-        <Route path="/board/kyujin" element={<Kyujin />} />
-        <Route path="/board/lily" element={<Lily />} />
-        <Route path="/board/sullyoon" element={<Sullyoon />} />
+       <Route path="/" element={<Home />} />
+       <Route path="/board/bae" element={<Bae />} />
+       <Route path="/board/haewon" element={<Haewon />} />
+       <Route path="/board/jiwoo" element={<Jiwoo />} />
+       <Route path="/board/kyujin" element={<Kyujin />} />
+       <Route path="/board/lily" element={<Lily />} />
+       <Route path="/board/sullyoon" element={<Sullyoon />} />
       </Routes>
     </>
   );

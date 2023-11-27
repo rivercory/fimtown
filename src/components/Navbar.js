@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-[#f3d9fa] rounded-b-lg">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -16,9 +16,14 @@ const Navbar = () => {
                         <li><Link to="/board/bae">배이</Link></li>
                         <li><Link to="/board/jiwoo">지우</Link></li>
                         <li><Link to="/board/kyujin">규진</Link></li>
+                        <li className="menu-title mt-2">엔써타운</li>
+                        <li><Link to="/">홈</Link></li>
+                        <li><Link to="/about">소개</Link></li>
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">엔써타운</Link>
+                <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">
+                    <img src="./icons/nswertown_transparent.svg" alt="nswertown logo" width={28} height={28} />
+                    엔써타운</Link>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
