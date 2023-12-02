@@ -23,7 +23,8 @@ const Navbar = () => {
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">
                     <img src="./icons/nswertown_transparent.svg" alt="nswertown logo" width={28} height={28} />
-                    엔써타운</Link>
+                    엔써타운
+                </Link>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
