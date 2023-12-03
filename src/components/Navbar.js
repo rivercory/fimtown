@@ -22,7 +22,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl text-primary pretendard">
-                    <img src="./icons/nswertown_transparent.svg" alt="nswertown logo" width={28} height={28} />
+                    <img src="./icons/nswertown_full.svg" alt="nswertown logo" width={28} height={28} />
                     엔써타운
                 </Link>
             </div>

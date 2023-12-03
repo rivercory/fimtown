@@ -16,10 +16,10 @@ const Sullyoon = () => {
     }
     return (
         <div className="w-full">
-            <div className="m-4 p-8 bg-primary rounded-lg suit">
-                <p className="text-3xl text-white">설윤</p>
+            <div className="mt-2 p-8 bg-[#eebefa] rounded-t-lg suit">
+                <p className="text-3xl text-primary text-bold">설윤</p>
             </div>
-            <div className="m-4">
+            <div className="mb-2 p-4 bg-[#eebefa] rounded-b-lg">
                 {sullyoon.map((sullyoon) => (
                     <li key={sullyoon.created_at}>{sullyoon.id}</li>
                 ))}
