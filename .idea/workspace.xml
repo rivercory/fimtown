@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eed53429-5add-4830-ab10-5b123873d11e" name="Changes" comment="Version 1.7.8">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eed53429-5add-4830-ab10-5b123873d11e" name="Changes" comment="Version 1.7.9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/board/Bae.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Bae.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/board/Haewon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Haewon.js" afterDir="false" />
@@ -14,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/src/pages/board/Kyujin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Kyujin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/board/Lily.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Lily.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/board/Sullyoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Sullyoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/nswertown/src/components/icons&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/projects/devlist",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\nswertown\src\components\icons" />
@@ -102,7 +104,10 @@
       <workItem from="1701575084963" duration="113000" />
       <workItem from="1701575256097" duration="139000" />
       <workItem from="1701575433441" duration="145000" />
-      <workItem from="1701575620420" duration="1527000" />
+      <workItem from="1701575620420" duration="1619000" />
+      <workItem from="1701850882006" duration="265000" />
+      <workItem from="1701851260685" duration="102000" />
+      <workItem from="1701852112038" duration="1601000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.7.8">
       <option name="closed" value="true" />
@@ -112,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701479649629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version 1.7.9">
+      <option name="closed" value="true" />
+      <created>1701577261601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701577261601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.7.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.8" />
+    <MESSAGE value="Version 1.7.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.9" />
   </component>
 </project>
