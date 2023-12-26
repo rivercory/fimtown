@@ -3,7 +3,7 @@ import {HiMenu, HiSearch, HiBell} from "react-icons/hi";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-[#f3d9fa] rounded-b-lg">
+        <div className="w-auto navbar bg-[#f3d9fa] m-4 rounded-full">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
