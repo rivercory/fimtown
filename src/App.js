@@ -6,7 +6,6 @@ import Haewon from './pages/board/Haewon';
 import Jiwoo from './pages/board/Jiwoo';
 import Kyujin from './pages/board/Kyujin';
 import Lily from './pages/board/Lily';
-import Sullyoon from './pages/board/Sullyoon';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -21,12 +20,10 @@ function App() {
                     <Route path="/board/jiwoo" element={<Jiwoo/>}/>
                     <Route path="/board/kyujin" element={<Kyujin/>}/>
                     <Route path="/board/lily" element={<Lily/>}/>
-                    <Route path="/board/sullyoon" element={<Sullyoon/>}/>
                 </Routes>
             </div>
         </>
     )
-        ;
 }
 
 export default App;
