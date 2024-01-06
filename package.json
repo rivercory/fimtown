@@ -1,6 +1,6 @@
 {
   "name": "fimtown",
-  "version": "1.7.13",
+  "version": "1.8.1",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
