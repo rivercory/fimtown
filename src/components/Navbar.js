@@ -3,7 +3,7 @@ import { HiMenu, HiSearch, HiBell } from "react-icons/hi";
 
 const Navbar = () => {
     return (
-        <div className="w-auto navbar bg-secondary/30 m-4 rounded-full">
+        <div className="w-auto navbar p-1 rounded-full">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -23,7 +23,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to="/" className="btn btn-ghost normal-case text-xl text-black pretendard">
-                    <img src="./icons/fimtown_full.svg" alt="fimtown logo" width={28} height={28} />
+                    <img src="./icons/fimtown_transparent.svg" alt="fimtown logo" width={28} height={28} />
                     핌타운
                 </Link>
             </div>
